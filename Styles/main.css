@@ -1,0 +1,29 @@
+.smaller-image {
+    width: 65%;
+    height: 40%;
+    padding: 5% 10% 0% 17%;
+}
+body {
+    margin: 0;
+}
+header{
+    background: White;
+    color: black;
+}
+header nav h1 {
+    margin: 10px;
+}
+
+
+
+nav ul {
+    margin: 0;
+}
+nav ul li {
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a {
+    color:black;
+}

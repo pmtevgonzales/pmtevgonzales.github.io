@@ -1,7 +1,7 @@
 .smaller-image {
     width: 65%;
     height: 40%;
-    padding: 5% 10% 0% 17%;
+    padding: 5% 10% 0% 19%;
 }
 body {
     margin: 0;
@@ -13,10 +13,10 @@ header{
 header nav h1 {
     margin: 10px;
 }
-
-
-
 nav ul {
+    margin: 0;
+    text-align: center;
+    padding: 0;
     margin: 0;
 }
 nav ul li {
@@ -25,5 +25,14 @@ nav ul li {
     display: inline-block;
 }
 nav ul li a {
+    text-decoration: none;
     color:black;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    transition: 0.6s;
+    background: antiquewhite;
 }

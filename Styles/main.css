@@ -15,6 +15,12 @@
     margin-right: 20%;
     text-indent: 50px;
 }
+.question{
+    font-style: italic;
+}
+.no-indent{
+    text-indent: 0px;
+}
 body {
     margin: 10px;
     border: 1px;
